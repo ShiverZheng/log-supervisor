@@ -8,10 +8,10 @@
 ## 用法
 
 #### 基本
-```npm i logger```
+```npm i log-supervisor```
 
 ```typescript
-    import Logger from 'logger'
+    import Logger from 'log-supervisor'
     
     // 首先设置前缀 - 可以是任何你想要的字符
     Logger.prefix = 'pp'

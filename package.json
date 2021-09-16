@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "log-supervisor",
   "version": "1.0.0",
   "description": "Organize logs more effectively",
   "main": "lib/index.js",

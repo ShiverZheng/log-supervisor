@@ -11,6 +11,7 @@
   "keywords": [
     "debug",
     "log",
+    "logger",
     "console.log"
   ],
   "author": "Sivan Zheng",

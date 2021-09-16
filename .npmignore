@@ -1,0 +1,8 @@
+README.IMG/result1.png
+README.IMG/result2.png
+.gitignore
+index.spec.ts
+jest.config.js
+jest.setup.js
+tsconfig.json
+index.ts

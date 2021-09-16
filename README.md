@@ -3,17 +3,17 @@
 二次封装的[debug](https://github.com/visionmedia/debug)，让你项目中的`console.log`更有组织性。
 
 ## 序言
-在我们福鑫业务中，涉及很多数值计算，测试同学需要查看各个数值是否正确，项目中就存在很多`console.log`，随着业务增长，在后续的本地开发与测试中，日志信息愈加混乱，一打开控制台日志信息铺天盖地，为了更好的组织和管理日志，能看到自己想要的看到的日志，`Logger`应运而生。
+在我们日常业务中，涉及很多数值计算，测试同学需要查看各个数值是否正确，项目中就存在很多`console.log`，随着业务增长，在后续的本地开发与测试中，日志信息愈加混乱，一打开控制台日志信息铺天盖地，为了更好的组织和管理日志，能看到自己想要的看到的日志，`Logger`应运而生。
 
 ## 用法
 
 #### 基本
-```npm i @pp/logger --save```
+```npm i logger```
 
 ```typescript
-    import Logger from '@pp/logger'
+    import Logger from 'logger'
     
-    // 首先设置前缀
+    // 首先设置前缀 - 可以是任何你想要的字符
     Logger.prefix = 'pp'
 
     enum Loggers {
@@ -97,4 +97,4 @@ Vue.prototype.$log = Logger.register(Loggers.Default)
 ```json
 "no-console": ["error", { allow: ["warn", "error"] }]
 ```
-当然`Logger`不会对`console.log`做处理，大家可以自由选择使用场景。
+当然`Logger`不会对`console.log`做处理，可以自由选择使用场景。

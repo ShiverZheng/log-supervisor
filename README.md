@@ -1,4 +1,4 @@
-# Logger
+# Log Supervisor
 
 二次封装的[debug](https://github.com/visionmedia/debug)，让你项目中的`console.log`更有组织性。
 
@@ -8,10 +8,10 @@
 ## 用法
 
 #### 基本
-```npm i logger```
+```npm i log-supervisor```
 
 ```typescript
-    import Logger from 'logger'
+    import Logger from 'log-supervisor'
     
     // 首先设置前缀 - 可以是任何你想要的字符
     Logger.prefix = 'pp'

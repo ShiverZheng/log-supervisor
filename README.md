@@ -37,11 +37,11 @@
 
     // 再或者全都开始干吧 => Logger.do()
 ```
-![结果1](README.IMG/result1.png)
+![结果1](https://raw.githubusercontent.com/ShiverZheng/log-supervisor/master/README.IMG/result1.png)
 
 我们可以通过使用`Logger.bindToWindow`将`logger`注册到`window`上，在控制台中键入`logger`以调用相应的方法。
 
-![结果2](README.IMG/result2.png)
+![结果2](https://raw.githubusercontent.com/ShiverZheng/log-supervisor/master/README.IMG/result2.png)
 
 `logger.namespace`可以查看项目中所有注册的`logger`的`namespace`。
 
